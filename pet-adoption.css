@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+section {
+  min-width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* NavBar Section */
+nav{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: white;
+    padding: 30px 50px;
+    transition: all 0.4 easeout;
+    filter: drop-shadow(5px 5px 10px transparent);
+}
+nav.sticky{
+    background-color: white;
+    filter: drop-shadow(2px 2px 5px greenyellow);
+}
+
+.brand{
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+    color: black;
+}
+.brand h1{
+    font-size: 32px;
+    font-weight: 900;
+    color: black;
+}
+.accent{
+    color:greenyellow;
+}
+.brand:hover{
+    opacity: 0.8;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    text-decoration: noen;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    transition: all 0.2 ease-out;
+}
+.menu a:hover{
+color: greenyellow;
+}
+.btn{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+.btn-2{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    transition: all ease-in-out 0.2s;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn-2 i{
+    font-size: 32px;
+    transition: all 0.2s ease-out;
+}
+.btn-2:hover{
+    color: greenyellow;
+}
+.btn-2:hover{
+    gap: 10px;
+}
+
+/* Hero Section */
+.heropage{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/Picsart_25-11-29_04-10-39-061.png);
+}
+.hero-headlines{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+    text-align: center;
+}
+.hero-headlines h1{
+    color: greenyellow;
+    font-size: 64px;
+    font-weight: 900;
+}
+.hero-headlines p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.hero-headlines-buttons {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.btn-3{
+    width: 205px;
+    height: 53px;
+    background-color: black;
+    font-size: 24px;
+    color: white;
+    border-radius: 12px;
+    border: 1px solid white;
+    transition: all 0.2 ease-out;
+}
+.btn-3:hover{
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid greenyellow;
+}
+
+.btn-transparent{
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+}
+.btn-transparent:hover{
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    color: black;
+}
+.hero-images{
+    display: flex;
+    margin-top: 50px;
+    gap: 35px;
+}
+.hero-images .image1{
+    margin-top: 8px;
+    width: 330px;
+    height: 350px;
+    border-radius: 30%;
+}
+.hero-images .image2{
+    width: 320px;
+    height: 370px;
+    border-radius: 10%;
+}
+.hero-images .image3{
+    margin-top: 9px;
+    width: 330px;
+    height: 355px;
+    border-radius: 40%;
+}
