@@ -50,9 +50,9 @@ This project follows all mandatory ICT requirements:
 
 | Role | Name | GitHub Username | Assigned Task |
 | :--- | :--- |  :--- | :--- |
-| **Team Lead** | Suhaib Ahmed | | suhaibahmd2006-dev | Home Page + Form Page, Repo Setup,Deployment|
-| **Member** | Muhammad Abubakar | | Abubakar-awan786 | Available Page Setup + Form Page |
-| **Member** | Muhammad Hussein Hashi | | h-u3n | Support Page + Form Page |
+| **Team Lead** | Suhaib Ahmed | suhaibahmd2006-dev | Home Page + Form Page, Repo Setup,Deployment|
+| **Member** | Muhammad Abubakar | Abubakar-awan786 | Available Page Setup + Form Page |
+| **Member** | Muhammad Hussein Hashi | h-u3n | Support Page + Form Page |
 ---
 
 ## ICT-PROJECT
