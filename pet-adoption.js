@@ -11,4 +11,4 @@ document.querySelector(".menu-btn").addEventListener("click", toggleMenu);
 document.querySelector(".close-btn").addEventListener("click", toggleMenu);
 
 document.querySelectorAll(".menu a")
-.forEach((link) => link.addEventListener("click", toggleMenu));
+.forEach((link) => link.addEventListener("click", toggleMenu)); 
