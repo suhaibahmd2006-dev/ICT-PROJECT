@@ -631,3 +631,82 @@ td a:hover {
     color: black;
     border: 2px solid greenyellow;
 }
+/* Application form Page */
+#formpg{
+    width: 33%;
+    height: 70vh;
+    border: 1px solid black;
+    margin: 22vh auto;
+    padding: 12px 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#formpg h1{
+    color: black;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+#formpg form{
+    width: min(400px, 100%);
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#formpg form .mainform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#formpg form .pet-selection {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px; 
+    align-items: center;
+    padding-bottom: 5px;
+}
+#formpg form .pet-selection label {
+    white-space: nowrap;
+}
+#formpg form .pet-selection input{
+    margin-top: -0.5px;
+    margin-bottom: 0.5px;
+    height: 20px;
+}
+#formpg form input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin-top : 10px;
+    font: inherit;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#formpg form input::placeholder{
+    color: #1a1a1a;
+  }
+#formpg form button{
+    margin-top: 15px;
+    margin-bottom: -22px;
+    border: none;
+    border-radius: 1000px;
+    padding: 16px 50px;
+    background-color: black;
+    color: white;
+    font: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 150ms ease;
+}

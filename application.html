@@ -33,6 +33,30 @@
         </button>
      </nav>
     <!-- Navbar End-->
+    <!-- Application Form -->
+    <div id="formpg">
+    <h1>APPLICATION FORM</h1>
+    <form id="adoptionForm">
+        <div class="mainform">
+            <label for="text"></label>
+            <input type="text" name="Name" id="Name" placeholder="Your FullName" required>
+            <input type="email" name="email" id="email-input" placeholder="Your Email Address" required>
+            <div class="pet-selection">
+                <label for="huskey">Siberian Huskey</label>
+                <input type="checkbox" id="huskey" name="animal_choice[]"> 
+                <label for="gojo">Gojo</label>
+                <input type="checkbox" id="gojo" name="animal_choice[]">
+                <label for="milo">Milo</label>
+                <input type="checkbox" id="milo" name="animal_choice[]">
+            </div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <div id="submissionMessage" style="display: none; font-size: 20px ; "> 
+        <p>✅ We Will Be Contacting You Soon!.</p>
+    </div>
+    </div>
+    <!-- Application Form End  -->
     <!-- Footer Section -->
     <footer>
         <div class="footer-container">
