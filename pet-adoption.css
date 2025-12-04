@@ -484,9 +484,27 @@ footer {
 .contact-info-item i{
     font-size: 18px;
 }
+
 .about-headlines button{
     margin-top: 48px;
 }
+
+.brand:hover i:hover{
+    color: greenyellow;
+}
+
+.contact-info-item p{
+    font-size: 18px; 
+}
+
+.contact-info-item p:hover{
+    color: greenyellow;
+}
+
+.copyright{
+    margin-top: 20px;
+}
+
 /* Available pets Page  */
 table {
     width: 90%;
@@ -612,18 +630,4 @@ td a:hover {
     background-color: greenyellow;
     color: black;
     border: 2px solid greenyellow;
-.contact-info-item i:hover{
-    color: greenyellow;
-}
-
-.contact-info-item p{
-    font-size: 18px; 
-}
-
-.contact-info-item p:hover{
-    color: greenyellow;
-}
-
-.copyright{
-    margin-top: 20px;
 }
