@@ -22,7 +22,7 @@
             <div class="btn">
                 <i class="fas fa-times close-btn"></i>
             </div>
-            <a href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="available.html">Pets</a>
         <a href="index.html#requirements">Requirements</a>
         <a href="support.html">Support</a>
@@ -32,6 +32,88 @@
            <i class="fa-solid fa-circle-arrow-right"></i>
         </button>
      </nav>
+    <!-- Table of Available Pets -->
+    <table>
+        <tr>
+            <th>Pet ID</th>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Age</th>
+            <th>Breed</th>
+            <th>Adoption Status</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>P001</td>
+            <td>Siberian Huskey</td>
+            <td>Dog</td>
+            <td>4 Year Old</td>
+            <td>Siberian</td>
+            <td>Available</td>
+            <td><a href="available.html#pet-1">Tap To View</a></td>
+        </tr>
+        <tr>
+            <td>P002</td>
+            <td>Gojo</td>
+            <td>Dog</td>
+            <td>3 Year Old</td>
+            <td>German Shepherd</td>
+            <td>Available</td>
+            <td><a href="available.html#pet-2">Tap To View</a></td>
+        </tr>
+        <tr>
+            <td>P003</td>
+            <td>Milo</td>
+            <td>Cat</td>
+            <td>2 Year Old</td>
+            <td>Siamese</td>
+            <td>Available</td>
+            <td><a href="available.html#pet-3">Tap To View</a></td>
+        </tr>
+        <tr>
+            <td>P004</td>
+            <td>Golder Retriver</td>
+            <td>Dog</td>
+            <td>5 Year Old</td>
+            <td>Golden</td>
+            <td>Adopted</td>
+            <td><a href="available.html#pet-4" class="adopted-link"></a></td>
+        </tr>
+    </table>
+    <section class="pets-info">
+        <div class="pet-card">
+            <img src="img/siberian husky.jfif" class="pet-1"alt="Siberian Huskey">
+            <h3>Siberian Huskey</h3>
+            <p>Age: 4 Year Old</p>
+            <p>Breed: Siberian</p>
+            <p>Status: Available</p>
+            <button class="btn-4" id="pet-1"><a href="application.html">Apply to Adopt</a></button>
+        </div>
+        <div class="pet-card">
+            <img src="img/german-shephard.jfif" class="pet-2" alt="Gojo">
+            <h3>Gojo</h3>
+            <p>Age: 3 Year Old</p>
+            <p>Breed: German Shepherd</p>
+            <p>Status: Available</p>
+            <button class="btn-4" id="pet-2"><a href="application.html?pet=Siberian%20Huskey">Apply to Adopt</a></button>
+        </div>
+        <div class="pet-card">
+            <img src="img/Siamese.jfif" class="pet-3"alt="Milo">
+            <h3>Milo</h3>
+            <p>Age: 2 Year Old</p>
+            <p>Breed: Siamese</p>
+            <p>Status: Available</p>
+            <button class="btn-4" id="pet-3"><a href="application.html?pet=Gojo">Apply to Adopt</a></button>
+        </div>
+        <div class="pet-card">
+            <img src="img/retriver.jfif" class="pet-4"alt="Golder Retriver">
+            <h3>Golder Retriver</h3>
+            <p>Age: 5 Year Old</p>
+            <p>Breed: Golden</p>
+            <p>Status: Adopted</p>
+            <button class="btn-4 adopted-pet" id="pet-4"><a href="application.html?pet=Milo">Apply to Adopt</a></button>
+        </div>
+    </section>
     <!-- Navbar End-->
     <!-- Footer Section -->
     <footer>

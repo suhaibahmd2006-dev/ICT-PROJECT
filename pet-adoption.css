@@ -484,6 +484,134 @@ footer {
 .contact-info-item i{
     font-size: 18px;
 }
+.about-headlines button{
+    margin-top: 48px;
+}
+/* Available pets Page  */
+table {
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    padding: auto;
+    margin-top: 120px;
+    border-collapse: collapse;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background-color: greenyellow;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th a,
+td a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+th a:hover,
+td a:hover {
+    color: greenyellow;
+}
+
+.pets-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0px 40px;
+}
+
+.pet-card {
+    width: 300px;
+    height: 27rem;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pet-card .pet-1 {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.pet-card .pet-2 {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.pet-card .pet-3 {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.pet-card .pet-4 {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.pet-card h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 15px 0px 5px 0px;
+    text-align: center;
+}
+
+.pet-card p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.pet-card a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.adopted-link {
+    cursor: url(img/cursor.jfif), not-allowed; 
+    pointer-events: none; 
+}
+
+.btn-4.adopted-pet {
+    cursor: not-allowed;  
+}
+
+.btn-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 45px;
+    margin: 15px auto;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-4:hover {
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid greenyellow;
 .contact-info-item i:hover{
     color: greenyellow;
 }
