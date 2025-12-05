@@ -710,3 +710,102 @@ td a:hover {
     cursor: pointer;
     transition: 150ms ease;
 }
+/* SUPPORT PAGE  */
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 80px 0px 80px;
+    padding: 0px 50px;
+    gap: 40px;
+}
+#contact-details .details{
+    width: 40%;
+}
+#contact-details .details span{
+    font-size: 24px;
+}
+#contact-details .details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-details .details h3{
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+#contact-details .details li i{
+    padding-right: 22px;
+    font-size: 18px;
+}
+#contact-details .details li p{
+    font-size: 18px;
+    margin: 0;
+}
+#contact-details .map{
+    margin: 0 150px;
+    width: 49%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+/* About Section  */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+    padding: 0px 50px;
+    gap: 40px;
+}
+
+.about-headlines {
+    display: flex;
+    flex-direction: column;
+    width: 885px;
+}
+
+.about-headlines h1 {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.about-headlines p {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+    gap: 76px;
+    margin-top: 40px;
+}
+
+.about-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-info-item h5 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.about-info-item h6 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about .btn-pets a{
+    text-decoration: none;
+    color: white;
+}
