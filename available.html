@@ -31,57 +31,61 @@
            <a href="https://wa.me/+923231201258" class="btn-2">Contact Us</a>
            <i class="fa-solid fa-circle-arrow-right"></i>
         </button>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
      </nav>
+    <!-- Navbar End-->
     <!-- Table of Available Pets -->
-    <table>
-        <tr>
-            <th>Pet ID</th>
-            <th>Name</th>
-            <th>Species</th>
-            <th>Age</th>
-            <th>Breed</th>
-            <th>Adoption Status</th>
-            <th>Link</th>
-        </tr>
-        <tr>
-            <td>P001</td>
-            <td>Siberian Huskey</td>
-            <td>Dog</td>
-            <td>4 Year Old</td>
-            <td>Siberian</td>
-            <td>Available</td>
-            <td><a href="available.html#pet-1">Tap To View</a></td>
-        </tr>
-        <tr>
-            <td>P002</td>
-            <td>Gojo</td>
-            <td>Dog</td>
-            <td>3 Year Old</td>
-            <td>German Shepherd</td>
-            <td>Available</td>
-            <td><a href="available.html#pet-2">Tap To View</a></td>
-        </tr>
-        <tr>
-            <td>P003</td>
-            <td>Milo</td>
-            <td>Cat</td>
-            <td>2 Year Old</td>
-            <td>Siamese</td>
-            <td>Available</td>
-            <td><a href="available.html#pet-3">Tap To View</a></td>
-        </tr>
-        <tr>
-            <td>P004</td>
-            <td>Golder Retriver</td>
-            <td>Dog</td>
-            <td>5 Year Old</td>
-            <td>Golden</td>
-            <td>Adopted</td>
-            <td><a href="available.html#pet-4" class="adopted-link"></a></td>
-        </tr>
+   <table>
+    <tr>
+        <th>Pet ID</th>
+        <th>Name</th>
+        <th>Species</th>
+        <th>Age</th>
+        <th>Breed</th>
+        <th>Adoption Status</th>
+        <th>Link</th>
+    </tr>
+    <tr>
+        <td data-label="Pet ID">P001</td>
+        <td data-label="Name">Siberian Huskey</td>
+        <td data-label="Species">Dog</td>
+        <td data-label="Age">4 Year Old</td>
+        <td data-label="Breed">Siberian</td>
+        <td data-label="Adoption Status">Available</td>
+        <td data-label="Link"><a href="available.html#pet-1">Tap To View</a></td>
+    </tr>
+    <tr>
+        <td data-label="Pet ID">P002</td>
+        <td data-label="Name">Gojo</td>
+        <td data-label="Species">Dog</td>
+        <td data-label="Age">3 Year Old</td>
+        <td data-label="Breed">German Shepherd</td>
+        <td data-label="Adoption Status">Available</td>
+        <td data-label="Link"><a href="available.html#pet-2">Tap To View</a></td>
+    </tr>
+    <tr>
+        <td data-label="Pet ID">P003</td>
+        <td data-label="Name">Milo</td>
+        <td data-label="Species">Cat</td>
+        <td data-label="Age">2 Year Old</td>
+        <td data-label="Breed">Siamese</td>
+        <td data-label="Adoption Status">Available</td>
+        <td data-label="Link"><a href="available.html#pet-3">Tap To View</a></td>
+    </tr>
+    <tr>
+        <td data-label="Pet ID">P004</td>
+        <td data-label="Name">Golder Retriver</td>
+        <td data-label="Species">Dog</td>
+        <td data-label="Age">5 Year Old</td>
+        <td data-label="Breed">Golden</td>
+        <td data-label="Adoption Status">Adopted</td>
+        <td data-label="Link"><a href="available.html#pet-4" class="adopted-link"></a></td>
+    </tr>
     </table>
     <section class="pets-info">
-        <div class="pet-card">
+        <div class="pet-card" id="pet-1">
             <img src="img/siberian husky.jfif" class="pet-1"alt="Siberian Huskey">
             <h3>Siberian Huskey</h3>
             <p>Age: 4 Year Old</p>
@@ -89,7 +93,7 @@
             <p>Status: Available</p>
             <button class="btn-4" id="pet-1"><a href="application.html">Apply to Adopt</a></button>
         </div>
-        <div class="pet-card">
+        <div class="pet-card" id="pet-2">
             <img src="img/german-shephard.jfif" class="pet-2" alt="Gojo">
             <h3>Gojo</h3>
             <p>Age: 3 Year Old</p>
@@ -97,7 +101,7 @@
             <p>Status: Available</p>
             <button class="btn-4" id="pet-2"><a href="application.html?pet=Siberian%20Huskey">Apply to Adopt</a></button>
         </div>
-        <div class="pet-card">
+        <div class="pet-card" id="pet-3">
             <img src="img/Siamese.jfif" class="pet-3"alt="Milo">
             <h3>Milo</h3>
             <p>Age: 2 Year Old</p>
@@ -105,7 +109,7 @@
             <p>Status: Available</p>
             <button class="btn-4" id="pet-3"><a href="application.html?pet=Gojo">Apply to Adopt</a></button>
         </div>
-        <div class="pet-card">
+        <div class="pet-card" id="pet-4">
             <img src="img/retriver.jfif" class="pet-4"alt="Golder Retriver">
             <h3>Golder Retriver</h3>
             <p>Age: 5 Year Old</p>
@@ -114,7 +118,6 @@
             <button class="btn-4 adopted-pet" id="pet-4"><a href="application.html?pet=Milo">Apply to Adopt</a></button>
         </div>
     </section>
-    <!-- Navbar End-->
     <!-- Footer Section -->
     <footer>
         <div class="footer-container">
@@ -138,7 +141,7 @@
                 <p>Find your PawsHeaven Pet Soul Today!</p>
                 <div class="socials">
                     <a href="https://www.linkedin.com/in/suhaib-ahmed-a9b651352/"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/_suhaibahmed_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/suhaibahmed?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/suhaib-ahmed-a9b651352/"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="https://x.com/_sebpvt"><i class="fa-brands fa-twitter"></i></a>
                     <a href="https://github.com/suhaibahmd2006-dev"><i class="fa-brands fa-github"></i></a>
